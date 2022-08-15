@@ -9,7 +9,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-In the analysis.r document, the first trends over time chart presents the problem of total incarceration population during the year of 2019, 2020, and 2022, showing population increase and decrease trends within year change. The second comparison chart demonstrates the problem of incarcerated population between age 15-64 on different races in 2018. The last map displays the incarcerated trends on different races in counties of Washington state in 2018. My data was generated from *Vera Institute of Justice* and I used data labeled as "incarceration_trends.csv" and "year-end-prison-2021.csv". Since "year-end-prison-2021.csv" only contains data generated from year 2019, 2020, and 2021, and the latest data generated in "incarceration_trends.csv" was in the year of 2018, I could only make the nearest guess by analyzing the dataset which have closed years.
+In the analysis.r document, the first trends over time chart presents the problem of total incarceration population during the year of 2019, 2020, and 2022, showing population increase and decrease trends within year change. 
+The second comparison chart demonstrates the problem of incarcerated population between age 15-64 on different races in 2018. The last map displays the incarcerated trends on different races in counties of Washington state in 2018. 
+My data was generated from *Vera Institute of Justice* and I used data labeled as "incarceration_trends.csv" and "year-end-prison-2021.csv". 
+Since "year-end-prison-2021.csv" only contains data generated from year 2019, 2020, and 2021, and the latest data generated in "incarceration_trends.csv" was in the year of 2018, I could only make the nearest guess by analyzing the dataset which have closed years.
 
 ## Summary
 According to my data analysis, I found that :\
