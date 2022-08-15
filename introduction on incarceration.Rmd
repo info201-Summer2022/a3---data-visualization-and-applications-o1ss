@@ -1,0 +1,22 @@
+---
+title: "Introduction + Summary"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+In the analysis.r document, the first trends over time chart presents the problem of total incarceration population during the year of 2019, 2020, and 2022, showing population increase and decrease trends within year change. The second comparison chart demonstrates the problem of incarcerated population between age 15-64 on different races in 2018. The last map displays the incarcerated trends on different races in counties of Washington state in 2018. My data was generated from *Vera Institute of Justice* and I used data labeled as "incarceration_trends.csv" and "year-end-prison-2021.csv". Since "year-end-prison-2021.csv" only contains data generated from year 2019, 2020, and 2021, and the latest data generated in "incarceration_trends.csv" was in the year of 2018, I could only make the nearest guess by analyzing the dataset which have closed years.
+
+## Summary
+According to my data analysis, I found that :\
+1. 2019 has the most incarceration population comparing to 2020 and 2021.\
+2. 2021 has the least incarceration population comparing to 2019 and 2020.\
+3. The average incarcerated population between 2019, 2020, and 2021 can be calculated by ave_pop function listed in analysis.R document. For example, Washington state has an average incarcerated population number of 16087.\
+4. I could check how many people were arrested in total in the year of 2018 in certain county by using the arrest_c_2018 function listed in analysis.R document. For example, King County, WA has a total arrecsted number of 1556882.\
+5. I could check how many people in total were arrested by race category in the year of 2018 by using the arrest_race_2018 function listed in analysis.R document. For example, asian has a total number of incarcerated population of 14447803 during 2018.\
+After comparing all data generated, we could make a conclusion that the incarceration population is decreasing from the year of 2019. Also, asian has the least incarcerated rate and latinx and native have the largest incarcerated rate. King County has the largest incarcerated population in Washington states.
+
